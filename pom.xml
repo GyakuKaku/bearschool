@@ -6,6 +6,7 @@
 
     <groupId>gyaku.bearschool</groupId>
     <artifactId>parent</artifactId>
+    <packaging>jar</packaging>
     <version>1.0-SNAPSHOT</version>
     <parent>
         <groupId>org.springframework.boot</groupId>
