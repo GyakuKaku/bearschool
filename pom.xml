@@ -6,7 +6,7 @@
 
     <groupId>gyaku.bearschool</groupId>
     <artifactId>parent</artifactId>
-    <packaging>jar</packaging>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -14,6 +14,14 @@
         <version>2.1.6.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
+
+    <modules>
+        <module>admin-server</module>
+        <module>api-gateway</module>
+        <module>eureka-server</module>
+        <module>server-common</module>
+        <module>feign-consumer</module>
+    </modules>
 
     <!-- 保留parent的pom.xml，统一jar的版本 -->
     <properties>
