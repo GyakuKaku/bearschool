@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="gyaku.bearschool.common.servercommon.dao。UserDao">
+<mapper namespace="gyaku.bearschool.common.servercommon.dao.UserDao">
 
     <select id="find" resultType="gyaku.bearschool.common.servercommon.domain.User" parameterType="Map">
         select * from user
