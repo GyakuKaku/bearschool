@@ -11,7 +11,7 @@ import org.springframework.context.annotation.ComponentScan;
 @EnableFeignClients
 @SpringBootApplication
 @ComponentScan({"gyaku.bearschool.common.servercommon.domain"})
-@MapperScan({"gyaku.bearschool.admin.adminserver.dao"})
+@MapperScan({"gyaku.bearschool.common.servercommon.dao"})
 public class AdminServerApplication {
 
     public static void main(String[] args) {
