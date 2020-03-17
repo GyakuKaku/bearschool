@@ -1,6 +1,6 @@
 package gyaku.bearschool.admin.adminserver.service;
 
-import gyaku.bearschool.admin.adminserver.dao.UserDao;
+import gyaku.bearschool.common.servercommon.dao.UserDao;
 import gyaku.bearschool.common.servercommon.domain.User;
 import org.springframework.stereotype.Service;
 
