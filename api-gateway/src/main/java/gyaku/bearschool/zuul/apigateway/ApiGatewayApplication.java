@@ -9,7 +9,7 @@ import org.springframework.context.annotation.ComponentScan;
 
 @EnableZuulProxy
 @SpringBootApplication
-@ComponentScan({"gyaku.bearschool.common.servercommon.domain"})
+@ComponentScan({"gyaku.bearschool.zuul.apigateway", "gyaku.bearschool.common.servercommon.domain"})
 public class ApiGatewayApplication {
 
     public static void main(String[] args) {

@@ -10,7 +10,7 @@ import org.springframework.context.annotation.ComponentScan;
 @EnableEurekaClient
 @EnableFeignClients
 @SpringBootApplication
-@ComponentScan({"gyaku.bearschool.common.servercommon.domain"})
+@ComponentScan({"gyaku.bearschool.admin.adminserver", "gyaku.bearschool.common.servercommon.domain"})
 @MapperScan({"gyaku.bearschool.common.servercommon.dao"})
 public class AdminServerApplication {
 

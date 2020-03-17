@@ -9,7 +9,7 @@ import org.springframework.context.annotation.ComponentScan;
 @EnableFeignClients
 @EnableEurekaClient
 @SpringBootApplication
-@ComponentScan({"gyaku.bearschool.common.servercommon.domain"})
+@ComponentScan({"gyaku.bearschool.feign.feignconsumer", "gyaku.bearschool.common.servercommon.domain"})
 public class FeignConsumerApplication {
 
     public static void main(String[] args) {
