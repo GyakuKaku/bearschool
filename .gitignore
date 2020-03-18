@@ -24,7 +24,8 @@ buildNumber.properties
 **/.mvn/wrapper/maven-wrapper.jar
 **/application.properties
 **/application-*.properties
-application-*.properties
+**/application-*.properties
 **/bootstrap.properties
+application-*.properties
 bootstrap.properties
 application.properties
