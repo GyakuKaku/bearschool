@@ -13,7 +13,7 @@ public class ServerController {
     private AdminRemote adminRemote;
 
     @RequestMapping(value = "/getInfo")
-    public JsonResult getAllUser(){
+    public JsonResult getInfo(){
         return adminRemote.getInfo();
     }
 }
