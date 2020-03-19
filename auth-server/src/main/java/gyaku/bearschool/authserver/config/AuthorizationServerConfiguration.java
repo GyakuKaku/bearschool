@@ -1,6 +1,6 @@
 package gyaku.bearschool.authserver.config;
 
-import gyaku.bearschool.admin.adminserver.service.MyRedisTokenStore;
+import gyaku.bearschool.authserver.service.MyRedisTokenStore;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.redis.connection.RedisConnectionFactory;
