@@ -1,4 +1,4 @@
-package gyaku.bearschool.admin.adminserver.service;
+package gyaku.bearschool.authserver.service;
 
 import org.springframework.data.redis.connection.RedisConnection;
 import org.springframework.data.redis.connection.RedisConnectionFactory;

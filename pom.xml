@@ -21,6 +21,7 @@
         <module>eureka-server</module>
         <module>server-common</module>
         <module>feign-consumer</module>
+        <module>auth-server</module>
     </modules>
 
     <!-- 保留parent的pom.xml，统一jar的版本 -->

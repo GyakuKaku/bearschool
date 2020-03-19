@@ -1,4 +1,4 @@
-package gyaku.bearschool.admin.adminserver.config;
+package gyaku.bearschool.authserver.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

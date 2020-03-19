@@ -7,7 +7,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.security.Principal;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -18,15 +17,6 @@ public class AdminController {
     @Autowired
     UserService userService;
 
-    /**
-     * 登录获取令牌
-     * @param principal
-     * @return
-     */
-    @RequestMapping(value = "/current", method = RequestMethod.GET)
-    public Principal getUser(Principal principal) {
-        return principal;
-    }
 
     /**
      * 获取所有用户信息
