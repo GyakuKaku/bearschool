@@ -18,6 +18,11 @@ public class AdminController {
     @Autowired
     UserService userService;
 
+    /**
+     * 登录获取令牌
+     * @param principal
+     * @return
+     */
     @RequestMapping(value = "/current", method = RequestMethod.GET)
     public Principal getUser(Principal principal) {
         return principal;
