@@ -1,4 +1,4 @@
-package gyaku.bearschool.authserver;
+package gyaku.bearschool.authserver.controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -17,5 +17,10 @@ public class AuthController {
     @RequestMapping(value = "/current", method = RequestMethod.GET)
     public Principal getUser(Principal principal) {
         return principal;
+    }
+
+    @RequestMapping(value = "/test", method = RequestMethod.POST)
+    public String test() {
+        return "1";
     }
 }
